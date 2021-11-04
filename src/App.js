@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <Header />
       <form onSubmit={searchNewUser}>
-        <input type="text" name="username" ref={inputRef} />
+        <input type="text" name="username" className="search" ref={inputRef} />
         <input className="submit" type="submit" value="Search" />
       </form>
 
